@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MYShop</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <!--Header Part-->
+  <section id="header">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-md-4 col-12">
+          <span class="px-2 py-1"><i class="fa fa-envelope px-2"></i>info@company.com</span>
+          <span class="px-2 py-1"><i class="fa fa-phone px-2"></i>012-251-4587</span>
+
+        </div>
+        <div class="col-md-3 col-12 d-flex justify-content-end">
+          <span class="py-1">
+            <i class="fa fa-facebook px-2"></i>
+            <i class="fa fa-instagram px-2"></i>
+            <i class="fa fa-twitter px-2"></i>
+            <i class="fa fa-linkedin-square px-2"></i>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--Navigation  Bar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark" id="navigation">
+    <div class="container">
+      <a class="navbar-brand brand" href="#">Sasta Shop</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse menu justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav text-center">
+          <a class="nav-link px-3" href="#">Home</a>
+          <a class="nav-link px-3" href="#">About</a>
+          <a class="nav-link px-3" href="#">Shop</a>
+          <a class="nav-link px-3" href="#">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!--Slider-->
+  <section id="slider">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Assets/slider/image1.jpg" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="Assets/slider/image2.jpg" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="Assets/slider/image3.jpg" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon " aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!--Categories Part-->
+  <section id="category">
+    <div class="container p-5">
+      <div class="row">
+        <div class="col-md-6 m-auto text-center heading p-2">
+          <h1>Categories of The Month</h1>
+          <p>We make every step comfortable.
+          </p>
+        </div>
+      </div>
+      <div class="row ">
+        <div class="col-md-4  text-center p-2 ">
+           <div class="product p-3 border border-2 border-dark">
+             <img src="Assets/slider/watch.jpg" class="rounded-circle border" style="width:250px; height:250px">
+             <h2 class="py-3">Watches</h2>
+             <a href="" class="btn btn-lg btn-success">Go Shop</a>
+            </div>
+        </div>
+        <div class="col-md-4  text-center p-2">
+          <div class="product p-3 border border-2 border-dark">
+            <img src="Assets/slider/shoe.jpg" class="rounded-circle border" style="width:250px; height:250px">
+            <h2 class="py-3">Shoes</h2>
+            <a href="" class="btn btn-lg btn-success">Go Shop</a>
+           </div>
+        </div>
+             
+        <div class="col-md-4  text-center p-2">
+          <div class="product p-3 border border-2 border-dark">
+            <img src="Assets/slider/sunglass.jpg" class="rounded-circle border" style="width:250px; height:250px">
+            <h2 class="py-3">Sunglasses</h2>
+            <a href="" class="btn btn-lg btn-success">Go Shop</a>
+           </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!--Footer part-->
+  <section id="footer" class="bg-dark text-white">
+    <div class="container py-3">
+      <div class="row py-3">
+      <div class="col-md-4 mb-4">
+        <div class="caption mt-2 logo">
+          <h1>Sasta Shop</h1>
+        </div><hr>
+        <div class="content d-flex flex-column">
+          <a href=""><i class="fa fa-map-marker px-2"></i>123 Consectetur at ligula 10660</a>
+          <a href=""><i class="fa fa-envelope px-2"></i>info@company.com</a>
+          <a href=""><i class="fa fa-phone px-2"></i>012-251-4587</a>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="caption mt-2">
+          <h1>Products</h1>
+        </div><hr>
+        <div class="content d-flex flex-column">
+          <a href="">Luxury</a>
+          <a href="">Sports Wear</a>
+          <a href="">Men's Shoes</a>
+          <a href="">Woma's Shoes</a>
+          <a href="">Popular Dress</a>
+          <a href="">Sports Shoess</a>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="caption mt-2">
+          <h1>Further Info</h1>
+        </div><hr>
+        <div class="content d-flex flex-column">
+          <a href="">Home</a>
+          <a href="">About Us</a>
+          <a href="">Shop Locations</a>
+          <a href="">FAQ</a>
+          <a href="">Contact</a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!--Copyrights Part-->
+  <section id="copyright">
+    <div class="container text-center py-3">
+      <h5>Made by KwaNBanta</h5>
+    </div>
+  </section>
+</body>
+
+</html>
